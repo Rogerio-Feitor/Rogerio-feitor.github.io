@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+  font-size: 42px;
+  font-family: monospace, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.center {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 9px;
+  text-align: center;
+  background-color: rgb(165 , 161 , 76);
+  z-index: 2;
+}
+
+.linkstyle {
+  display: inline-block;
+  margin: 15px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#minha_foto {
+  position: absolute;
+  height: 380px;
+  top: 10px;
+  margin-left: 40px;
+  border-radius: 25%;
+}
+
+.caixa {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  left: 10px;
+  top: 140px;
+  background-color: bisque;
+  border-radius: 15%;
+  z-index: 1;
+}
+
+.descricao {
+  position: absolute;
+  top: 540px;
+  left: 24px;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+}
+
+.setuplista1 {
+  position: absolute;
+  width: 180px;
+  height: 210px;
+  left: 350px;
+  top: 130px;
+  padding-top: 10px;
+  text-align: center;
+  color: darkgreen;
+}
+
+.setuplista2 {
+  position: absolute;
+  width: 180px;
+  height: 210px;
+  left: 350px;
+  top: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  color: darkgreen;
+}
+
+#licoes_aprendidas {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: darkgreen;
+}
+
+#licoes_a_aprender {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: darkgreen;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+}
+
+.lado-direito {
+  position: absolute;
+  float: right;
+  width: 340px;
+  height: 350px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 18px;
+  top: 140px;
+  right: 20px;
+  padding-top: 80px;
+  background-color: bisque;
+  border: 5px ridge thistle;
+  border-top: 10px ridge thistle;
+  border-radius: 5px;
+  color: gray;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  float: left;
+  width: 350px;
+  height: 345px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  top: 140px;
+  left: 550px;
+  padding: 90px 20px 10px;
+  background-color: darkolivegreen;
+  border-radius: 15px;
+  color: white;
+}
+
+hr {
+  width: 100%;
+  margin-top: 570px;
+  height: 5px;
+  color: darkolivegreen;
+}
+
+#rodape {
+  width: 100%;
+  height: 250px;
+  top: 590px;
+  background-color: green;
+}
+
+#contato {
+  position: absolute;
+  background-color: rgba(165 , 161 , 76 , 0.5);
+  height: 170px;
+  width: 570px;
+  top: 615px;
+  left: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.imglocal {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  z-index: 1;
+}
+
+.imglocal1 {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  text-align: center;
+  z-index: 1;
+}
+
+#sobre {
+  position: absolute;
+  background-color: rgba(165 , 161 , 76 , 0.5);
+  height: 147px;
+  width: 570px;
+  top: 615px;
+  right: 40px;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
