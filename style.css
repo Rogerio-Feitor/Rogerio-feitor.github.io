@@ -188,6 +188,7 @@ hr {
 
 .imglocal {
   position: relative;
+  display: inline-block;
   top: 15px;
   text-align: center;
   z-index: 1;
